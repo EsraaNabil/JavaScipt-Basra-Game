@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>basra game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>  
+        <div class="container">
+            <div class="basra"> Basra</div>
+            <div class="computer">
+            <div class="computerArea" >
+                <div class="computerArea1"></div>
+                <div class="computerArea2"></div>
+            </div>
+            <div class="computerScore" id="computerScore" style="display: none;"> 
+               Score equal  <span style="color: white;font-size: 20px">
+                0 </span></div>
+          </div>
+          <div class="ground">
+            <div class="deck" id="deck" style="display: none;">
+                <img src="cards/1_of_clubs.png" id="1" class="card">
+                <img src="cards/1_of_diamonds.png" id="1" class="card">
+                <img src="cards/1_of_hearts.png" id="1" class="card">
+                <img src="cards/1_of_spades.png" id="1"  class="card">
+                <img src="cards/2_of_clubs.png" id="2" class="card">
+                <img src="cards/2_of_diamonds.png" id="2" class="card">
+                <img src="cards/2_of_hearts.png" id="2" class="card">
+                <img src="cards/2_of_spades.png" id="2" class="card">
+                <img src="cards/3_of_clubs.png" id="3" class="card">
+                <img src="cards/3_of_diamonds.png" id="3" class="card">
+                <img src="cards/3_of_hearts.png" id="3" class="card">
+                <img src="cards/3_of_spades.png" id="3" class="card">
+                <img src="cards/4_of_clubs.png" id="4"  class="card">
+                <img src="cards/4_of_diamonds.png" id="4" class="card">
+                <img src="cards/4_of_hearts.png" id="4" class="card">
+                <img src="cards/4_of_spades.png" id="4" class="card">
+                <img src="cards/5_of_clubs.png" id="5" class="card">
+                <img src="cards/5_of_diamonds.png" id="5" class="card"> 
+                <img src="cards/5_of_hearts.png" id="5" class="card">
+                <img src="cards/5_of_spades.png" id="5" class="card">
+                <img src="cards/6_of_clubs.png" id="6" class="card">
+                <img src="cards/6_of_diamonds.png" id="6" class="card">
+                <img src="cards/6_of_hearts.png" id="6" class="card">
+                <img src="cards/6_of_spades.png" id="6" class="card">
+                <img src="cards/7_of_clubs.png" id="7" class="card">
+                <img src="cards/7_of_diamonds.png" id="7" class="card" name="come">
+                <img src="cards/7_of_hearts.png" id="7" class="card">
+                <img src="cards/7_of_spades.png" id="7" class="card">
+                <img src="cards/8_of_clubs.png" id="8" class="card">
+                <img src="cards/8_of_diamonds.png" id="8" class="card">
+                <img src="cards/8_of_hearts.png" id="8" class="card">
+                <img src="cards/8_of_spades.png" id="8" class="card">
+                <img src="cards/9_of_clubs.png" id="9" class="card">
+                <img src="cards/9_of_diamonds.png" id="9" class="card">
+                <img src="cards/9_of_hearts.png" id="9" class="card">
+                <img src="cards/9_of_spades.png" id="9" class="card">
+                <img src="cards/10_of_clubs.png" id="10" class="card">
+                <img src="cards/10_of_diamonds.png" id="10" class="card">
+                <img src="cards/10_of_hearts.png" id="10" class="card">
+                <img src="cards/10_of_spades.png" id="10" class="card">
+                <img src="cards/jack_of_clubs.png" id="11" class="card">
+                <img src="cards/jack_of_diamonds.png" id="11" class="card">
+                <img src="cards/jack_of_hearts.png" id="11" class="card">
+                <img src="cards/jack_of_spades.png" id="11" class="card">
+                <img src="cards/king_of_clubs.png" id="12" class="card">
+                <img src="cards/king_of_diamonds.png" id="12" class="card">
+                <img src="cards/king_of_hearts.png" id="12" class="card">
+                <img src="cards/king_of_spades.png" id="12" class="card">
+                <img src="cards/queen_of_clubs.png" id="13" class="card">
+                <img src="cards/queen_of_diamonds.png" id="13" class="card">
+                <img src="cards/queen_of_hearts.png" id="13" class="card">
+                <img src="cards/queen_of_spades.png" id="13" class="card">
+                <img src="cards/facedown.png" id="back"/>
+                <img src="cards/facedown.png" id="back2"/>
+            </div>
+            <button class="button" id="button">Start Your Game</button>
+            <div class="groundArea" id="groundArea">
+                <div class="groundArea1" id="groundArea1"></div>
+                <div class="groundArea1" id="groundArea2"></div>
+            </div>
+            <div class="round" id="round">
+                <p class="theRound"></p>
+                <p class="comp"></p>
+                <p class="pla"></p>
+            </div>
+          </div>
+          <div class="player">
+            <div class="playerArea" id="playerArea" style="align-items:center;text-align: right;width: 80%;"></div>
+            <div class="playerScore" id="playerScore" style="display: none">
+                Score equal  <span style="color: white;font-size: 20px">
+                0 </span></div>
+          </div> 
+        </div>
+        <script src="jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="basra.js"></script>
+</body>
+</html>
